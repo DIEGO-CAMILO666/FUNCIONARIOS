@@ -27,7 +27,7 @@ public class Conexion {
             Class.forName("org.postgresql.Driver");
             
             con = DriverManager.getConnection(cadena,usuario,contrasenia);
-            JOptionPane.showMessageDialog(null,"Conexión exitosa");
+            JOptionPane.showMessageDialog(null,"procesando...");
             
         }catch(Exception e){
             JOptionPane.showMessageDialog(null," Falla en la Conexión "+e.toString());
